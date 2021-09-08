@@ -11,6 +11,15 @@
   margin-bottom: 10px;
 }
 
+.sidebar__top > h4 {
+  color: gray;
+  font-size: 12px;
+}
+
+.sidebar__top > h2 {
+  font-size: 17px;
+}
+
 .sidebar__top {
   display: flex;
   flex-direction: column;
@@ -46,7 +55,7 @@
 
 .sidebar__statNumber {
   font-weight: bold;
-  color: blue !important;
+  color: #0a66c2 !important;
 }
 
 .sidebar__stats {
@@ -56,4 +65,42 @@
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border: 1px solid lightgray;
+}
+
+.sidebar__bottom {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+
+.sidebar__bottom > p {
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+
+.sidebar__recentItem {
+  display: flex;
+  font-size: 13px;
+  color: gray;
+  cursor: pointer;
+  font-weight: bolder;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.sidebar__recentItem:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+  color: black;
+  border-radius: 10px;
+}
+
+.sidebar__hash {
+  margin-right: 10px;
+  margin-left: 5px;
 }
